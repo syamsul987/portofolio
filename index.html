@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>beli cuyy</title>
   </head>
@@ -55,7 +56,8 @@
         </p>
 
         <div class="card">
-          <div class="card-box">
+          <div class="card-box" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div class="image">
               <img src="image/gambar2.jpg" alt="hamburgher" />
             </div>
@@ -72,7 +74,8 @@
             </div>
           </div>
 
-          <div class="card-box">
+          <div class="card-box" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div class="image">
               <img src="image/gambar2.jpg" alt="hamburgher" />
             </div>
@@ -89,7 +92,8 @@
             </div>
           </div>
 
-          <div class="card-box">
+          <div class="card-box" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div class="image">
               <img src="image/gambar2.jpg" alt="hamburgher" />
             </div>
@@ -131,6 +135,10 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
